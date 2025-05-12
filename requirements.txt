@@ -1,0 +1,12 @@
+fastapi
+streamlit
+xgboost
+pandas
+numpy
+sentence-transformers
+pymilvus
+tritonclient
+uvicorn
+faker
+docker
+ 
