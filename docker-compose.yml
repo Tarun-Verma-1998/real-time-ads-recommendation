@@ -1,1 +1,11 @@
-  
+version: '3.8'
+services:
+  milvus:
+    image: milvusdb/milvus:v2.2.0
+    container_name: milvus
+    environment:
+      - "TZ=UTC"
+    command: ["milvus", "run", "standalone"]
+    ports:
+      - "19530:19530"
+      - "9091:9091"
